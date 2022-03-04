@@ -17,6 +17,43 @@ ul {
   * General
   */
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Volkhov", serif;
+}
+
+.section-headings {
+}
+
+.section-headings .subheading {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fb811e;
+}
+
+.section-headings .secondary-heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #000;
+}
+/**
+  * Responsive
+  */
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 /*-------------- Tran Duc Thanh --------------*/
 /**
   * Header 
