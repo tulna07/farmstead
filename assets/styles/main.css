@@ -13,9 +13,17 @@ ul {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 /**
   * General
   */
+:root {
+  --primary-color: #fb811e;
+  --secondary-color: #009f4d;
+}
 
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -28,32 +36,36 @@ h4,
 h5,
 h6 {
   font-family: "Volkhov", serif;
+  margin: 0;
 }
 
-.section-headings {
+p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #707070;
 }
 
-.section-headings .subheading {
+.subheading {
   font-size: 22px;
   font-weight: 400;
-  color: #fb811e;
+  color: var(--primary-color);
 }
 
-.section-headings .secondary-heading {
+.secondary-heading {
+  margin-bottom: 15px;
+
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
   color: #000;
 }
-/**
-  * Responsive
-  */
 
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1200px;
-  }
+.text-heading {
+  font-size: 17px;
+  line-height: 27px;
+  color: #707070;
 }
+
 /*-------------- Tran Duc Thanh --------------*/
 /**
   * Header 
@@ -83,6 +95,104 @@ h6 {
 /**
   * Features Section
   */
+#features {
+  padding: 80px 0;
+}
+
+.features-upper {
+  margin-bottom: 125px;
+}
+
+#features .section-headings {
+  margin-bottom: 65px;
+}
+
+.features-info {
+  gap: 8px;
+}
+
+.features-info__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+
+  gap: 8px;
+}
+
+.features-info > i {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.features-img-box {
+  position: relative;
+}
+
+.features__img {
+  max-width: 470px;
+  border-radius: 30px;
+}
+
+.features-experience {
+  min-width: 300px;
+  height: 190px;
+  background-color: var(--primary-color);
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+
+  border-bottom-right-radius: 100px;
+
+  position: absolute;
+  bottom: 38px;
+  left: 15px;
+}
+
+.features-experience__years {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.features-experience__text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.features-item {
+  margin-bottom: 30px;
+  padding: 30px 17px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: border 0.7s;
+}
+
+.features-item__active {
+  border: 1px dotted #000;
+}
+
+.features-item:hover {
+  border: 1px solid #eee;
+}
+
+.features-item:hover .features-item__title {
+  color: var(--secondary-color);
+}
+
+.features-item__img {
+  width: 100%;
+}
+
+.features-item__title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+
+  transition: color 0.3s;
+}
+
+/**
+  * Carousel Section
+  */
 
 /* TODO: Features Carousel Section below this line */
 
@@ -103,3 +213,84 @@ h6 {
   */
 
 /* TODO: Style Footer below this line */
+
+/**
+  * Responsive
+  */
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Features Section */
+  .features__img {
+    max-width: 370px;
+  }
+
+  .features-experience {
+    left: -5px;
+  }
+
+  .features-info__title {
+    font-size: 20px;
+  }
+
+  .features-item {
+    padding: 25px 0;
+  }
+
+  .features-item__title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Features Section */
+  #features .secondary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .features__img {
+    margin-top: 40px;
+    max-width: 570px;
+  }
+
+  .features-experience {
+    left: 34px;
+  }
+
+  .features-item {
+    padding: 23px 0;
+  }
+
+  .features-item__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Features Section */
+  #features .subheading {
+    font-size: 18px;
+  }
+
+  #features .secondary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .features-upper {
+    margin-bottom: 100px;
+  }
+
+  .features__img {
+    width: 100%;
+  }
+  .features-experience {
+    left: -85px;
+  }
+}

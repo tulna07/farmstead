@@ -30,10 +30,19 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/styles/main.css" />
   </head>
-  <body>
+  <body id="body">
     <!------- Tran Duc Thanh ------->
     <!-- Header -->
     <header id="header"></header>
@@ -48,21 +57,159 @@
     <!-- Features Section -->
     <section id="features">
       <div class="container">
-        <div class="row">
-          <div class="features-content col-6"></div>
-          <div class="features-img-box col-6"></div>
+        <div class="row align-items-center features-upper">
+          <div class="features-content col-lg-6">
+            <div class="section-headings">
+              <h3 class="subheading">Why choose us</h3>
+              <h2 class="secondary-heading">
+                Quality food is the most important thing in our life
+              </h2>
+              <p class="text-heading">
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Non quae, fugiat.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="features-info d-flex">
+                  <i class="fa-solid fa-users"></i>
+                  <div class="features-info__text">
+                    <h4 class="features-info__title text-capitalize">
+                      Qualified Staff
+                    </h4>
+                    <p class="features-info__description">
+                      Sed ut perspiciatis unde omnis iste natus error sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="features-info d-flex">
+                  <i class="fa-solid fa-life-ring"></i>
+                  <div class="features-info__text">
+                    <h4 class="features-info__title text-capitalize">
+                      Excellent Service
+                    </h4>
+                    <p class="features-info__description">
+                      Sed ut perspiciatis unde omnis iste natus error sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features-img-box col-lg-6 text-right">
+            <img
+              class="features__img"
+              src="assets/images/image.jpg"
+              alt="features image"
+            />
+            <div
+              class="features-experience d-flex flex-column justify-content-center align-items-center text-white"
+            >
+              <h5 class="features-experience__years">36+</h5>
+              <div class="features-experience__text text-uppercase">
+                YEARS OF EXPERIENCE
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="row">
-          <div class="col-4">
+        <div class="row features-lower">
+          <div class="col-lg-4 col-md-6">
             <div class="features-item d-flex">
-              <img class="features-item__icon" src="assets/images/img5.png" />
-              <div class="features-item__content">
-                <h3 class="features-item__title">Agriculture</h3>
-                <p class="features-item__description">
-                  Ras effic itur metusga via suscipit consectetur adipisicing
-                  unde omnis.
-                </p>
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img5.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Agriculture</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="features-item d-flex">
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img6.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Fresh</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="features-item d-flex">
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img7.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Natural</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="features-item d-flex">
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img8.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Farm</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="features-item d-flex">
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img9.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Organic</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="features-item d-flex">
+              <div class="col-3">
+                <img class="features-item__img" src="assets/images/img10.png" />
+              </div>
+              <div class="col-9">
+                <div class="features-item__content">
+                  <h3 class="features-item__title">Dairy</h3>
+                  <p class="features-item__description">
+                    Ras effic itur metusga via suscipit consectetur adipisicing
+                    unde omnis.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -92,5 +239,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Main JS -->
+    <script src="assets/scripts/main.js"></script>
   </body>
 </html>
