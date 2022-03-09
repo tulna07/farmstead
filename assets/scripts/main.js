@@ -1,3 +1,4 @@
+// Features Section
 const featureItems = document.getElementsByClassName("features-item");
 
 for (let i = 0; i < featureItems.length; ++i) {
@@ -10,3 +11,15 @@ for (let i = 0; i < featureItems.length; ++i) {
     featureItems[i].classList.add("features-item__active");
   };
 }
+
+// Testimonials Section
+$(document).ready(function () {
+  $(".testimonials-carousel").slick({
+    dots: true,
+    arrows: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
