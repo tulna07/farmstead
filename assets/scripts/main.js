@@ -23,3 +23,13 @@ $(document).ready(function () {
     slidesToScroll: 1,
   });
 });
+
+const testimonialsCarousel = document.querySelector(".testimonials-carousel");
+
+testimonialsCarousel.onmousedown = function () {
+  testimonialsCarousel.style.cursor = "grab";
+};
+
+testimonialsCarousel.onmouseup = function () {
+  testimonialsCarousel.style.cursor = "default";
+};
