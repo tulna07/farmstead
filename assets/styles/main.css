@@ -364,12 +364,31 @@ p {
   }
 
   /* Testimonials Section */
+  #testimonials {
+    height: 600px;
+  }
+
   .testimonials-carousel-item > .row {
     flex-direction: column;
   }
 
+  .testimonials-customer__title {
+    margin-bottom: 35px;
+  }
+
+  .testimonials-description i {
+    top: -25px;
+    left: 47%;
+    transform: translateX(-50%);
+  }
+
   .testimonials-description {
+    margin-top: 10px;
     font-size: 17px;
     text-align: center;
+  }
+
+  .testimonials-carousel .slick-dots {
+    bottom: -85px;
   }
 }
