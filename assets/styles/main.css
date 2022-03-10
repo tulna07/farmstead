@@ -66,6 +66,25 @@ p {
   color: #707070;
 }
 
+/* Custom Button */
+.btn-custom {
+  padding: 12px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+
+  background: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+
+  transition: background-color 0.5s;
+}
+
+.btn-custom:hover {
+  background-color: var(--secondary-color);
+}
+
 /*-------------- Tran Duc Thanh --------------*/
 /**
   * Header 
@@ -84,6 +103,43 @@ p {
   */
 
 /* TODO: Style Works Section below this line */
+#works {
+  padding: 50px 0;
+}
+
+#works .section-headings {
+  margin-bottom: 45px;
+}
+
+.works-item {
+  margin-bottom: 30px;
+  padding: 40px 0;
+  box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+
+  transition: box-shadow 0.3s;
+}
+
+.works-item:hover {
+  box-shadow: 2px 5px 120px rgba(0, 0, 0, 0.1);
+}
+
+.works-item__img {
+  width: 60px;
+  margin-bottom: 25px;
+}
+
+.works-item__title > a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+
+  transition: color 0.5s;
+}
+
+.works-item__title > a:hover {
+  color: var(--secondary-color);
+}
 
 /**
   * Services Section
@@ -95,6 +151,8 @@ p {
 /**
   * Features Section
   */
+
+/* TODO: Style Features Section below this line */
 #features {
   padding: 80px 0;
 }
@@ -189,12 +247,6 @@ p {
 
   transition: color 0.3s;
 }
-
-/**
-  * Carousel Section
-  */
-
-/* TODO: Features Carousel Section below this line */
 
 /**
   * Products Section
@@ -493,6 +545,23 @@ p {
 }
 
 @media (max-width: 992px) {
+  /* Works Section */
+  #works .subheading {
+    font-size: 20px;
+  }
+
+  #works .secondary-heading {
+    font-size: 35px;
+  }
+
+  #works .section-headings {
+    margin-bottom: 25px;
+  }
+
+  #works .btn-custom {
+    margin-bottom: 20px;
+  }
+
   /* Features Section */
   #features .secondary-heading {
     font-size: 35px;
@@ -552,6 +621,20 @@ p {
 }
 
 @media (max-width: 768px) {
+  /* Works Section */
+  #works .subheading {
+    font-size: 18px;
+  }
+
+  #works .secondary-heading {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  #works .btn-custom {
+    margin-bottom: 45px;
+  }
+
   /* Features Section */
   #features .subheading {
     font-size: 18px;
