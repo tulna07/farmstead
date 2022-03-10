@@ -365,9 +365,16 @@ p {
   font-weight: 600;
 }
 
+.footer-medias__text {
+  margin-bottom: 15px;
+}
+
+.footer-medias__form {
+  margin-bottom: 32px;
+}
+
 .footer-medias__input {
-  padding: 25px;
-  height: 45px;
+  padding: 13px 20px;
   width: 100%;
   border: none;
   background-color: #f4f4f4;
@@ -376,8 +383,7 @@ p {
 }
 
 .footer-medias__submit {
-  width: 75px;
-  height: 45px;
+  width: 95px;
   border-top-right-radius: 999px;
   border-bottom-right-radius: 999px;
   border: none;
@@ -385,6 +391,12 @@ p {
   background-color: var(--secondary-color);
 
   position: relative;
+
+  transition: opacity 0.4s;
+}
+
+.footer-medias__submit:hover {
+  opacity: 0.7;
 }
 
 .footer-medias__submit > i {
