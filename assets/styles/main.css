@@ -335,6 +335,8 @@ p {
   font-size: 32px;
 
   position: relative;
+
+  transition: color 0.4s;
 }
 
 .footer-info__logo-link > i {
@@ -343,6 +345,10 @@ p {
   position: absolute;
   top: -2px;
   left: 56px;
+}
+
+.footer-info__logo-link:hover {
+  color: #000 !important;
 }
 
 .footer-info__text {
@@ -365,9 +371,20 @@ p {
   font-weight: 600;
 }
 
+.footer-medias__text {
+  margin-bottom: 15px;
+}
+
+.footer-medias__text br {
+  display: none;
+}
+
+.footer-medias__form {
+  margin-bottom: 32px;
+}
+
 .footer-medias__input {
-  padding: 25px;
-  height: 45px;
+  padding: 13px 20px;
   width: 100%;
   border: none;
   background-color: #f4f4f4;
@@ -376,8 +393,7 @@ p {
 }
 
 .footer-medias__submit {
-  width: 75px;
-  height: 45px;
+  width: 95px;
   border-top-right-radius: 999px;
   border-bottom-right-radius: 999px;
   border: none;
@@ -385,6 +401,12 @@ p {
   background-color: var(--secondary-color);
 
   position: relative;
+
+  transition: opacity 0.4s;
+}
+
+.footer-medias__submit:hover {
+  opacity: 0.7;
 }
 
 .footer-medias__submit > i {
@@ -458,6 +480,16 @@ p {
   .features-item__title {
     font-size: 18px;
   }
+
+  /* Footer */
+  .footer-medias__submit {
+    width: 120px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -482,6 +514,40 @@ p {
 
   .features-item__title {
     font-size: 20px;
+  }
+
+  /* Footer */
+  .footer-contact {
+    padding-left: 0;
+  }
+
+  .footer-medias__text br {
+    display: inline;
+  }
+
+  .footer-medias__form {
+    justify-content: flex-start !important;
+  }
+
+  .footer-medias__input {
+    width: 275px;
+  }
+
+  .footer-medias__submit {
+    width: 105px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    margin-bottom: 12px;
+  }
+
+  .footer-info__logo-link {
+    margin-bottom: 15px;
+  }
+
+  #footer .row .col-lg-4:nth-child(2) {
+    order: 1;
   }
 }
 
@@ -534,5 +600,22 @@ p {
 
   .testimonials-carousel .slick-dots {
     bottom: -85px;
+  }
+
+  /* Footer */
+  .footer-medias__text br {
+    display: none;
+  }
+
+  .footer-medias__form {
+    justify-content: space-between !important;
+  }
+
+  .footer-medias__input {
+    width: 100%;
+  }
+
+  .footer-medias__submit {
+    width: 200px;
   }
 }
