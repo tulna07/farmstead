@@ -1,3 +1,27 @@
+// Header
+const headerFormGroup = document.getElementById("header-form-group");
+const search = document.getElementById("search");
+
+headerFormGroup.onclick = function () {
+  search.focus();
+};
+
+const toggleThemeBtn = document.getElementById("toggle-theme");
+
+toggleThemeBtn.onclick = function () {
+  toggleThemeBtn.classList.toggle("fa-moon");
+  toggleThemeBtn.classList.toggle("fa-sun");
+};
+
+const toggleMenuBtn = document.getElementById("toggle-menu");
+const headerNav = document.getElementById("header-nav");
+
+toggleMenuBtn.onclick = function () {
+  console.log("Hello");
+  console.log(headerNav);
+  headerNav.classList.toggle("header-nav--active");
+};
+
 // Features Section
 const featureItems = document.getElementsByClassName("features-item");
 
