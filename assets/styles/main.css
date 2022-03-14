@@ -11,6 +11,7 @@ a:hover {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 p {
@@ -89,6 +90,132 @@ p {
 /**
   * Header 
   */
+#header {
+  padding: 22px 0;
+  background-color: transparent;
+}
+
+.header__logo-link {
+  display: inline-block;
+  padding: 0 15px;
+
+  font-family: "Volkhov", serif;
+  color: var(--primary-color);
+  font-size: 32px;
+
+  position: relative;
+
+  transition: color 0.4s;
+}
+
+.header__logo-link > i {
+  font-size: 20px;
+
+  position: absolute;
+  top: -2px;
+  left: 70px;
+}
+
+.header__logo-link:hover {
+  color: #000;
+}
+
+.header-menu {
+  padding: 0 15px;
+
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.form-group {
+  margin: 0;
+  cursor: pointer;
+}
+
+#search {
+  padding: 0;
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0.5px solid #7070702b;
+  cursor: pointer;
+
+  background-color: #fff;
+
+  transition: all 0.5s;
+}
+
+#search:focus {
+  outline: none;
+  padding: 0 30px;
+  border-radius: 999px;
+  width: 200px;
+  cursor: text;
+}
+
+.search-icon {
+  top: 10px;
+  left: 10px;
+}
+
+#toggle-theme,
+#toggle-menu {
+  cursor: pointer;
+}
+
+#toggle-theme {
+  font-size: 20px;
+}
+
+#toggle-theme:hover {
+  color: var(--primary-color);
+}
+
+#toggle-menu {
+  font-size: 27px;
+}
+
+#header-nav {
+  max-height: 0;
+  overflow: hidden;
+  width: 235px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+
+  top: 110%;
+  right: 15px;
+  z-index: 1;
+
+  border-radius: 4px;
+
+  transition: max-height 0.8s;
+}
+
+#header-nav.header-nav--active {
+  max-height: 310px;
+}
+
+.header-nav-list > li {
+  padding: 7px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.header-nav-list .header-nav-link {
+  display: block;
+  font-weight: 600;
+  color: #000;
+  transition: color 0.4s;
+}
+
+.header-nav-list .header-nav-link--active {
+  color: var(--primary-color);
+}
+
+.header-nav-list > li:hover > .header-nav-link {
+  color: var(--primary-color);
+}
 
 /* TODO: Style Header below this line */
 
@@ -545,6 +672,11 @@ p {
 }
 
 @media (max-width: 992px) {
+  /* Header */
+  #header {
+    padding: 15px 0;
+  }
+
   /* Works Section */
   #works .subheading {
     font-size: 20px;
@@ -628,6 +760,11 @@ p {
 }
 
 @media (max-width: 768px) {
+  /* Header */
+  .header__logo-link {
+    color: #fff;
+  }
+
   /* Works Section */
   #works .subheading {
     font-size: 18px;

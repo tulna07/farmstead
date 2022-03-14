@@ -61,7 +61,48 @@
   <body id="body">
     <!------- Tran Duc Thanh ------->
     <!-- Header -->
-    <header id="header">aaaaa</header>
+    <header id="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <a class="header__logo-link text-capitalize" href="#">
+            <i class="fa-solid fa-leaf"></i> Farmstead
+          </a>
+          <div class="header-menu d-flex align-items-center position-relative">
+            <form
+              id="header-form-group"
+              class="form-group position-relative"
+              action="/"
+              method="GET"
+            >
+              <input id="search" type="search" />
+              <i
+                class="search-icon fa-solid fa-magnifying-glass position-absolute"
+              ></i>
+            </form>
+            <i id="toggle-theme" class="fa-solid fa-moon"></i>
+            <i id="toggle-menu" class="fa-solid fa-bars"></i>
+            <nav id="header-nav" class="position-absolute">
+              <ul
+                class="header-nav-list d-flex flex-column text-center text-uppercase"
+              >
+                <li>
+                  <a class="header-nav-link header-nav-link--active" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li><a class="header-nav-link" href="#">ABOUT</a></li>
+                <li><a class="header-nav-link" href="#">SERVICES</a></li>
+                <li><a class="header-nav-link" href="#">BLOG POSTS</a></li>
+                <li><a class="header-nav-link" href="#">LANDING PAGE</a></li>
+                <li><a class="header-nav-link" href="#">ELEMENTS PAGE</a></li>
+                <li><a class="header-nav-link" href="#">404 PAGE</a></li>
+                <li><a class="header-nav-link" href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- Carousel Section -->
     <section id="carousel"></section>
     <!--  Works Section -->
