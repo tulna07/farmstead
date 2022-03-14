@@ -173,6 +173,7 @@
   }
 
   #services .secondary-heading {
+    margin-bottom: 6px;
     font-size: 32px;
     line-height: 42px;
   }
@@ -257,7 +258,6 @@
   }
 
   #services .secondary-heading {
-    margin-bottom: 8px;
     font-size: 30px;
     line-height: 40px;
   }
