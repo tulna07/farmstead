@@ -620,6 +620,13 @@ p {
   }
 }
 
+@media (min-width: 992px) {
+  /* Works Section */
+  #works .section-headings {
+    padding-right: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   /* Works Section */
   #works .subheading {
