@@ -1,0 +1,264 @@
+/**
+  * Responsive
+  */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Services Section */
+  #services .section-headings {
+    margin-bottom: 35px;
+  }
+
+  /* Features Section */
+  .features__img {
+    max-width: 370px;
+  }
+
+  .features-experience {
+    left: -5px;
+  }
+
+  .features-info__title {
+    font-size: 20px;
+  }
+
+  .features-item {
+    padding: 25px 0;
+  }
+
+  .features-item__title {
+    font-size: 18px;
+  }
+
+  /* Footer */
+  .footer-medias__submit {
+    width: 120px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Header */
+  #header {
+    padding: 15px 0;
+  }
+
+  /* Works Section */
+  #works .subheading {
+    font-size: 20px;
+  }
+
+  #works .secondary-heading {
+    font-size: 35px;
+  }
+
+  #works .section-headings {
+    margin-bottom: 25px;
+  }
+
+  #works .btn-custom {
+    margin-bottom: 20px;
+  }
+
+  /* Services Section */
+  #services .secondary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #services .subheading {
+    font-size: 20px;
+  }
+
+  /* Features Section */
+  #features .secondary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .features__img {
+    margin-top: 40px;
+    max-width: 570px;
+  }
+
+  .features-experience {
+    left: 34px;
+  }
+
+  .features-item {
+    padding: 23px 0;
+  }
+
+  .features-item__title {
+    font-size: 20px;
+  }
+
+  /* Footer */
+  .footer-contact {
+    padding-left: 0;
+  }
+
+  .footer-medias__text br {
+    display: inline;
+  }
+
+  .footer-medias__form {
+    justify-content: flex-start !important;
+  }
+
+  .footer-medias__input {
+    width: 275px;
+  }
+
+  .footer-medias__submit {
+    width: 105px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    margin-bottom: 12px;
+  }
+
+  .footer-info__logo-link {
+    margin-bottom: 15px;
+  }
+
+  #footer .row .col-lg-4:nth-child(2) {
+    order: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Works Section */
+  #works .section-headings {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Header */
+  .header__logo-link {
+    color: #fff;
+  }
+
+  /* Works Section */
+  #works .subheading {
+    font-size: 18px;
+  }
+
+  #works .secondary-heading {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  #works .btn-custom {
+    margin-bottom: 45px;
+  }
+
+  /* Services Section*/
+  #services {
+    padding: 70px 0 45px;
+  }
+
+  #services .section-headings {
+    margin-bottom: 47px;
+  }
+
+  #services .secondary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  #services .subheading {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  /* Features Section */
+  #features .subheading {
+    font-size: 18px;
+  }
+
+  #features .secondary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .features-upper {
+    margin-bottom: 100px;
+  }
+
+  .features__img {
+    width: 100%;
+  }
+
+  .features-experience {
+    left: -85px;
+  }
+
+  /* Testimonials Section */
+  #testimonials {
+    height: 600px;
+  }
+
+  .testimonials-carousel-item > .row {
+    flex-direction: column;
+  }
+
+  .testimonials-customer__title {
+    margin-bottom: 35px;
+  }
+
+  .testimonials-description i {
+    top: -25px;
+    left: 47%;
+    transform: translateX(-50%);
+  }
+
+  .testimonials-description {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .testimonials-carousel .slick-dots {
+    bottom: -85px;
+  }
+
+  /* Footer */
+  .footer-medias__text br {
+    display: none;
+  }
+
+  .footer-medias__form {
+    justify-content: space-between !important;
+  }
+
+  .footer-medias__input {
+    width: 100%;
+  }
+
+  .footer-medias__submit {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  #services .section-headings {
+    margin-bottom: 20px;
+  }
+
+  #services .secondary-heading {
+    margin-bottom: 8px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
