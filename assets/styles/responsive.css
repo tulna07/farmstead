@@ -46,20 +46,22 @@
 }
 
 @media (max-width: 992px) {
+  /* Heading Handlers */
+  .subheading {
+    font-size: 20px;
+  }
+
+  .secondary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
   /* Header */
   #header {
     padding: 15px 0;
   }
 
   /* Works Section */
-  #works .subheading {
-    font-size: 20px;
-  }
-
-  #works .secondary-heading {
-    font-size: 35px;
-  }
-
   #works .section-headings {
     margin-bottom: 25px;
   }
@@ -68,22 +70,7 @@
     margin-bottom: 20px;
   }
 
-  /* Services Section */
-  #services .secondary-heading {
-    font-size: 35px;
-    line-height: 45px;
-  }
-
-  #services .subheading {
-    font-size: 20px;
-  }
-
   /* Features Section */
-  #features .secondary-heading {
-    font-size: 35px;
-    line-height: 45px;
-  }
-
   .features__img {
     margin-top: 40px;
     max-width: 570px;
@@ -104,6 +91,11 @@
   /* Footer */
   .footer-contact {
     padding-left: 0;
+  }
+
+  .footer-contact,
+  .footer-medias {
+    margin-bottom: 40px;
   }
 
   .footer-medias__text br {
@@ -144,20 +136,22 @@
 }
 
 @media (max-width: 768px) {
+  /* Heading Handlers */
+  .subheading {
+    font-size: 18px;
+  }
+
+  .secondary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
   /* Header */
   .header__logo-link {
     color: #fff;
   }
 
   /* Works Section */
-  #works .subheading {
-    font-size: 18px;
-  }
-
-  #works .secondary-heading {
-    font-size: 32px;
-    margin-bottom: 5px;
-  }
 
   #works .btn-custom {
     margin-bottom: 45px;
@@ -172,27 +166,11 @@
     margin-bottom: 47px;
   }
 
-  #services .secondary-heading {
-    margin-bottom: 6px;
-    font-size: 32px;
-    line-height: 42px;
-  }
-
   #services .subheading {
     margin-bottom: 5px;
-    font-size: 18px;
   }
 
   /* Features Section */
-  #features .subheading {
-    font-size: 18px;
-  }
-
-  #features .secondary-heading {
-    font-size: 32px;
-    line-height: 42px;
-  }
-
   .features-upper {
     margin-bottom: 100px;
   }
@@ -202,7 +180,7 @@
   }
 
   .features-experience {
-    left: -85px;
+    left: -55px;
   }
 
   /* Testimonials Section */
@@ -253,6 +231,13 @@
 }
 
 @media (max-width: 576px) {
+  /* Heading Handlers */
+  .secondary-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* Services Section */
   #services .section-headings {
     margin-bottom: 20px;
   }
@@ -260,5 +245,23 @@
   #services .secondary-heading {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  /* Features Section */
+  #features .section-headings {
+    margin-bottom: 25px;
+  }
+
+  #features .features-list {
+    gap: 25px;
+  }
+
+  .features-experience {
+    left: -45px;
+  }
+
+  /* Testimonials Section */
+  .testimonials-carousel .slick-dots {
+    bottom: -50px;
   }
 }
