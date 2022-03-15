@@ -8,7 +8,7 @@ A webpage layout built with HTML5, CSS3, Bootstrap 4 and vanilla Javascript.
 
 ## Tasks
 
-Our main tasks in the project is to implement:
+Our main tasks in the project are to implement:
 
 - Homepage layout
 - Responsive design
@@ -27,6 +27,8 @@ $PROJECT_ROOT
 │   ├── scripts
 │   │   # CSS file
 │   └── styles
+│   # Screenshots of the project
+├── screenshots
 │   # Page content
 └── index.html
 ```
@@ -37,7 +39,9 @@ $PROJECT_ROOT
 ![header and carousel section]() -->
 
 - Features section
+
   ![features section](screenshots/features-section.png)
 
 - Testimonials section and footer
+
   ![testimonials section and footer](screenshots/testimonials-section-and-footer.png)
