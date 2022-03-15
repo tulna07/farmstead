@@ -410,8 +410,8 @@ p {
   border-bottom-right-radius: 100px;
 
   position: absolute;
-  bottom: 38px;
-  left: 15px;
+  bottom: 45px;
+  left: 0;
 }
 
 .features-experience__years {
