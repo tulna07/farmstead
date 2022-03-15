@@ -463,7 +463,76 @@ p {
   */
 
 /* TODO: Style Products Section below this line */
+#products {
+  padding: 0 0 80px 0;
+}
 
+#products .row {
+  padding: 0 15px;
+}
+
+#products .section-headings {
+  margin-bottom: 25px;
+}
+
+.product-col,
+.heading-col {
+  padding: 0;
+}
+
+.product-item {
+  overflow: hidden;
+}
+
+.product-item__link::before {
+  content: "";
+  width: 25%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: -50%;
+
+  transform: skewX(-20deg);
+
+  background: linear-gradient(to right, #ffffff14, #ffffff54);
+}
+
+.product-item__link:hover::before {
+  animation: moveShine 0.6s;
+}
+
+@keyframes moveShine {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.product-item__link {
+  display: block;
+}
+
+.product-item__img {
+  width: 100%;
+}
+
+.product-item__title {
+  padding: 8px 0;
+  width: 85%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ffffff36;
+
+  text-transform: capitalize;
+
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 /**
   * Testimonials Section 
   */

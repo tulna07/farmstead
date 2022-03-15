@@ -265,3 +265,19 @@
     bottom: -50px;
   }
 }
+
+@media (max-width: 450px) {
+  /* Products Section */
+  #products {
+    padding: 20px 0 80px 0;
+  }
+
+  #products .heading-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #products .btn-custom {
+    margin-bottom: 15px;
+  }
+}
