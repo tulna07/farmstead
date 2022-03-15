@@ -1,4 +1,4 @@
-# Farmstead Layout
+# Farmstead Homepage Layout
 
 See the live page [Farmstead](https://scoobytux-farmstead.vercel.app "Farmstead") 🌳
 
@@ -15,7 +15,7 @@ Our main tasks in the project are to implement:
 - [x] Homepage layout
 - [x] Responsive design
 - [x] Full effects
-- [x] themes: light and dark
+- [x] Themes: light and dark
 
 ## Project Structure
 
