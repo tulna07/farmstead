@@ -54,7 +54,7 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 
 - Testimonials section and footer
 
-  ![testimonials section and footer](screenshots/testimonials-section-and-footer.png)
+  ![testimonials **section** and footer](screenshots/testimonials-section-and-footer.png)
 
 ## Contributors
 
