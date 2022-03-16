@@ -31,6 +31,8 @@ $PROJECT_ROOT
 │   └── styles
 │   # Screenshots of the project
 ├── screenshots
+│   # Roadmap of the project
+├── checklist.xlsx
 │   # Page content
 └── index.html
 ```
