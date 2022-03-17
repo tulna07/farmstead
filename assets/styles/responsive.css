@@ -8,6 +8,25 @@
 }
 
 @media (max-width: 1200px) {
+  /* Heading Handlers */
+  .primary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #carousel .text-heading {
+    font-size: 17px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings {
+    left: 8%;
+  }
+
+  #carousel .section-headings::before {
+    font-size: 90px;
+  }
+
   /* Services Section */
   #services .section-headings {
     margin-bottom: 35px;
@@ -51,6 +70,11 @@
     font-size: 20px;
   }
 
+  .primary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
   .secondary-heading {
     font-size: 35px;
     line-height: 45px;
@@ -59,6 +83,15 @@
   /* Header */
   #header {
     padding: 15px 0;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings {
+    left: 5%;
+  }
+
+  #carousel .section-headings::before {
+    font-size: 80px;
   }
 
   /* Works Section */
@@ -151,8 +184,36 @@
     color: #fff;
   }
 
-  /* Works Section */
+  /* Carousel Section */
+  .slider {
+    width: 100vw;
+  }
 
+  .primary-heading > br {
+    display: inline;
+  }
+
+  #carousel .section-headings {
+    padding: 90px 40px 30px;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 8px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #carousel .section-headings::before {
+    top: 15px;
+    left: 15px;
+  }
+
+  #carousel .text-heading {
+    margin-bottom: 20px;
+  }
+
+  /* Works Section */
   #works .btn-custom {
     margin-bottom: 45px;
   }
@@ -237,6 +298,24 @@
     line-height: 40px;
   }
 
+  .primary-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings::before {
+    font-size: 70px;
+  }
+
+  #carousel .section-headings {
+    padding: 80px 40px 30px;
+  }
+
+  #carousel .text-heading {
+    font-size: 16px;
+  }
+
   /* Services Section */
   #services .section-headings {
     margin-bottom: 20px;
@@ -267,6 +346,21 @@
 }
 
 @media (max-width: 450px) {
+  /* Heading handlers */
+  .primary-heading {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings::before {
+    font-size: 60px;
+  }
+
+  #carousel .section-headings {
+    padding: 70px 40px 30px;
+  }
+
   /* Products Section */
   #products {
     padding: 20px 0 80px 0;
