@@ -22,6 +22,27 @@ toggleMenuBtn.onclick = function () {
   headerNav.classList.toggle("header-nav--active");
 };
 
+// Carousel section
+$(document).ready(function () {
+  $(".slider").slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
+
 // Features Section
 const featureItems = document.getElementsByClassName("features-item");
 
