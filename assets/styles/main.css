@@ -22,6 +22,9 @@ p {
   * General
   */
 :root {
+  --bg-dark: #222;
+  --heading-dark-theme: #fff;
+  --text-dark-theme: #b7b7b7;
   --primary-color: #fb811e;
   --secondary-color: #009f4d;
 }
@@ -64,7 +67,6 @@ p {
 .text-heading {
   font-size: 17px;
   line-height: 27px;
-  color: #707070;
 }
 
 /* Custom Button */
@@ -89,6 +91,61 @@ p {
   background-color: var(--secondary-color);
 }
 
+/* Dark theme handlers */
+.theme-dark,
+.theme-dark #header-nav,
+.theme-dark #header.header--sticky {
+  background-color: var(--bg-dark);
+}
+
+.theme-dark .primary-heading,
+.theme-dark .secondary-heading,
+.theme-dark .works-item__title > a,
+.theme-dark .services-item__title > a,
+.theme-dark .features-info__title,
+.theme-dark .features-item__title,
+.theme-dark .footer-contact__title,
+.theme-dark .footer-medias__title,
+.theme-dark .header-nav-list .header-nav-link,
+.theme-dark #header.header--sticky #toggle-theme,
+.theme-dark #header.header--sticky #toggle-menu,
+.theme-dark #header.header--sticky .header__logo-link {
+  color: var(--heading-dark-theme);
+}
+
+.theme-dark #carousel .section-headings::before {
+  color: #000;
+}
+
+.theme-dark p,
+.theme-dark .footer-contact-item,
+.theme-dark .footer-contact-item > a {
+  color: var(--text-dark-theme);
+}
+
+.theme-dark .works-item {
+  box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.45);
+
+  transition: box-shadow 0.3s;
+}
+
+.theme-dark .works-item:hover {
+  box-shadow: 2px 5px 120px rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .services-item__body {
+  background-color: var(--bg-dark);
+}
+
+.theme-dark .footer-medias__input {
+  background-color: #000;
+}
+
+.theme-dark .footer-medias__input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  caret-color: rgba(255, 255, 255, 0.7);
+}
+
 /*-------------- Tran Duc Thanh --------------*/
 /**
   * Header 
@@ -102,6 +159,23 @@ p {
   position: absolute;
   width: 100%;
   z-index: 5;
+
+  transition: all 0.7s;
+}
+
+#header.header--sticky {
+  padding: 22px 0 12px 0;
+  background-color: #fff;
+  color: #000;
+
+  position: fixed;
+  top: -10px;
+}
+
+#header.header--sticky #toggle-theme,
+#header.header--sticky #toggle-menu,
+#header.header--sticky .header__logo-link {
+  color: #000;
 }
 
 .header__logo-link {
@@ -221,7 +295,7 @@ p {
 }
 
 .header-nav-list .header-nav-link--active {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .header-nav-list > li:hover > .header-nav-link {
@@ -307,7 +381,7 @@ p {
 .slider-footer__number {
   font-size: 25px;
   line-height: 1.2;
-  color: #fff;
+  color: #fff !important;
 }
 
 .slider-footer__number > span {
@@ -317,7 +391,7 @@ p {
 
 .slider-footer__title {
   font-size: 17px;
-  color: #fff;
+  color: #fff !important;
 }
 
 #carousel .slick-dots {
@@ -565,7 +639,7 @@ p {
 }
 
 .features-item__active {
-  border: 1px dotted #000;
+  border: 1px dotted rgba(255, 255, 255, 0.5);
 }
 
 .features-item:hover {
