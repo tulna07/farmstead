@@ -187,6 +187,10 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: var(--bg-dark);
 }
 
+.theme-dark .features-item__active {
+  border: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
 .theme-dark .footer-medias__input {
   background-color: #000;
 }
@@ -694,7 +698,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .features-item__active {
-  border: 1px dotted rgba(255, 255, 255, 0.5);
+  border: 1px dotted rgba(0, 0, 0, 0.5);
 }
 
 .features-item:hover {
