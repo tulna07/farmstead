@@ -184,6 +184,14 @@
     color: #fff;
   }
 
+  .theme-dark #header.header--sticky .header__logo-link {
+    color: #fb811e;
+  }
+
+  #header.header--sticky .header__logo-link {
+    color: #fb811e;
+  }
+
   /* Carousel Section */
   .slider {
     width: 100vw;
@@ -211,6 +219,18 @@
 
   #carousel .text-heading {
     margin-bottom: 20px;
+  }
+
+  .theme-dark #carousel .primary-heading {
+    color: var(--heading-dark-theme);
+  }
+
+  .theme-dark #carousel .section-headings::before {
+    color: #000;
+  }
+
+  .theme-dark #carousel .section-headings {
+    background-color: #222;
   }
 
   /* Works Section */
