@@ -31,7 +31,7 @@ $PROJECT_ROOT
 │   ├── scripts
 │   │   # CSS file
 │   ├── styles
-│   │   # Third party sources
+│   │   # Third party plugins
 │   └── vendors
 │   # Screenshots of the project
 ├── screenshots
@@ -72,7 +72,7 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 | Le Nguyen Anh Tu | tu.lna07@gmail.com        |
 | Tran Duc Thanh   | thoatran1112211@gmail.com |
 
-## Credits and reference
+## Credits and Reference
 
 | Resource                                               | Description          |
 | ------------------------------------------------------ | -------------------- |
