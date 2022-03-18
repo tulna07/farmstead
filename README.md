@@ -17,6 +17,8 @@ Our main tasks in the project are to implement:
 - [x] Full effects
 - [x] Themes: light and dark
 
+Task assignments: check out checklist.xlsx for more details.
+
 ## Project Structure
 
 ```
