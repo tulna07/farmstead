@@ -105,6 +105,38 @@ body::-webkit-scrollbar-thumb:hover {
   opacity: 0.1;
 }
 
+/* Back to top button */
+.cd-top {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  background-color: var(--secondary-color);
+  border-radius: 3px;
+
+  position: fixed;
+  bottom: 85px;
+  right: 20px;
+}
+
+.back-to-top::before {
+  color: #fff;
+  font-size: 13px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Dark theme handlers */
 .theme-dark,
 .theme-dark #header-nav,
