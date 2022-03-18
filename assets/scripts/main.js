@@ -60,6 +60,13 @@ for (let i = 0; i < featureItems.length; ++i) {
   };
 }
 
+// Products Section
+lightGallery(document.getElementById("animated-thumbnails"), {
+  plugins: [lgZoom, lgThumbnail],
+  exThumbImage: "data-exthumbimage",
+  selector: ".product-item__link",
+});
+
 // Testimonials Section
 $(document).ready(function () {
   $(".testimonials-carousel").slick({
