@@ -47,8 +47,15 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 
 ## Screenshots
 
-<!-- - Header and carousel section
-![header and carousel section]() -->
+- Header and carousel section
+
+  - Light
+
+  ![header and carousel section: light](screenshots/header-light.png)
+
+  - Dark
+
+  ![header and carousel section: dark](screenshots/header-dark.png)
 
 - Features section
 
