@@ -30,7 +30,9 @@ $PROJECT_ROOT
 │   │   # Javascript file
 │   ├── scripts
 │   │   # CSS file
-│   └── styles
+│   ├── styles
+│   │   # Third party sources
+│   └── vendors
 │   # Screenshots of the project
 ├── screenshots
 │   # Roadmap of the project
