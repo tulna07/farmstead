@@ -6,6 +6,10 @@ See the live page [Farmstead](https://scoobytux-farmstead.vercel.app "Farmstead"
 
 A webpage layout built with HTML5, CSS3, Bootstrap 4 and vanilla Javascript.
 
+## Languages and Tech Stack
+
+![Languages and Tech Stack](screenshots/languages_techs.png)
+
 ## Tasks
 
 > March 4 - 19, 2022
@@ -45,7 +49,7 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 - `cd farmstead`
 - Open `index.html` file
 
-## Screenshots
+## Some Screenshots
 
 - Header and carousel section
 
@@ -72,6 +76,10 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 | Le Nguyen Anh Tu | tu.lna07@gmail.com        |
 | Tran Duc Thanh   | thoatran1112211@gmail.com |
 
-## Credits
+## Credits and reference
 
-Reference to the original website [https://wp.w3layouts.com/farmstead/](https://wp.w3layouts.com/farmstead/ "Farmstead original website")
+| Resource                                               | Description          |
+| ------------------------------------------------------ | -------------------- |
+| [https://wp.w3layouts.com/farmstead/][original layout] | The original website |
+
+[original layout]: https://wp.w3layouts.com/farmstead/
