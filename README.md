@@ -6,10 +6,6 @@ See the live page [Farmstead](https://scoobytux-farmstead.vercel.app "Farmstead"
 
 A webpage layout built with HTML5, CSS3, Bootstrap 4 and vanilla Javascript.
 
-## Languages and Tech Stack
-
-![Languages and Tech Stack](screenshots/languages_techs.png)
-
 ## Tasks
 
 > March 4 - 19, 2022
