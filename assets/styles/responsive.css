@@ -65,6 +65,11 @@
 }
 
 @media (max-width: 992px) {
+  /* Scrollbar Handlers */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
   /* Heading Handlers */
   .subheading {
     font-size: 20px;
