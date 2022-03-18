@@ -7,10 +7,12 @@ headerFormGroup.onclick = function () {
 };
 
 const toggleThemeBtn = document.getElementById("toggle-theme");
+const body = document.getElementById("body");
 
 toggleThemeBtn.onclick = function () {
   toggleThemeBtn.classList.toggle("fa-moon");
   toggleThemeBtn.classList.toggle("fa-sun");
+  body.classList.toggle("theme-dark");
 };
 
 const toggleMenuBtn = document.getElementById("toggle-menu");
@@ -42,6 +44,18 @@ $(document).ready(function () {
     ],
   });
 });
+
+const header = document.getElementById("header");
+const offsetTopHeader = +header.offsetTop;
+
+window.onscroll = function () {
+  if (window.pageYOffset > offsetTopHeader + 30) {
+    header.classList.add("header--sticky");
+    return;
+  }
+
+  header.classList.remove("header--sticky");
+};
 
 // Features Section
 const featureItems = document.getElementsByClassName("features-item");
