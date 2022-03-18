@@ -49,25 +49,21 @@ Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Far
 - `cd farmstead`
 - Open `index.html` file
 
-## Some Screenshots
+## Some Project's Views on Devices
 
-- Header and carousel section
+- On MacBook/ Laptop (in Light Theme)
 
-  - Light
+  ![MacBook/ Laptop view 1](screenshots/laptop-views-1.png)
 
-  ![header and carousel section: light](screenshots/header-light.png)
+  ![MacBook/ Laptop view 2](screenshots/laptop-views-2.png)
 
-  - Dark
+  ![MacBook/ Laptop view 3](screenshots/laptop-views-3.png)
 
-  ![header and carousel section: dark](screenshots/header-dark.png)
+  ![MacBook/ Laptop view 4](screenshots/laptop-views-4.png)
 
-- Features section
+- On Mobile (in Dark Theme)
 
-  ![features section](screenshots/features-section.png)
-
-- Testimonials section and footer
-
-  ![testimonials **section** and footer](screenshots/testimonials-section-and-footer.png)
+![Mobile view](screenshots/mobile-views.png)
 
 ## Contributors
 
