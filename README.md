@@ -41,7 +41,7 @@ $PROJECT_ROOT
 └── index.html
 ```
 
-### Installation and Run
+## Installation and Run
 
 Check out the webpage -> [Farmstead](https://scoobytux-farmstead.vercel.app "Farmstead") or run locally:
 
