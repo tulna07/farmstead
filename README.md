@@ -4,7 +4,7 @@ See the live page [Farmstead](https://scoobytux-farmstead.vercel.app "Farmstead"
 
 ## Introduction
 
-A webpage layout built with HTML5, CSS3, Bootstrap 4 and vanilla Javascript.
+A webpage layout built with HTML5, CSS3, Bootstrap 4 and vanilla JavaScript.
 
 ## Tasks
 
